@@ -1,10 +1,26 @@
-# Amoke Oge — Demo Website
+# Amoke Oge — Restaurant Demo Website
 
-Demo prototype for presenting a digital ordering proposal to Amoke Oge management.
+A premium, mobile-first restaurant ordering and proposal website built for Amoke Oge. The project showcases a modern digital ordering experience with branch selection, menu browsing, custom meal building, cart flow, simulated payment, and order tracking.
 
-Tech: Next.js, TypeScript, Tailwind CSS, Framer Motion, Lucide React.
+## Stack
 
-Run locally (after installing deps):
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Lucide React
+
+## Features
+
+- Branch selection flow
+- Premium homepage and hero section
+- Menu cards with local food imagery
+- Custom meal configuration UI
+- Interactive cart and checkout simulation
+- Order tracking experience
+- Responsive layout for desktop and mobile
+
+## Run locally
 
 ```bash
 cd Proposal
@@ -12,4 +28,12 @@ npm install
 npm run dev
 ```
 
-This is a frontend-only demo. All payments are simulated.
+Then open:
+
+```bash
+http://localhost:3000
+```
+
+## Notes
+
+This is a frontend-only demo. Payments and ordering are simulated for presentation purposes.
