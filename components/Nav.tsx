@@ -11,7 +11,7 @@ export default function Nav({ selectedBranch, onChangeBranch }: Props) {
     <nav className="sticky top-0 z-40 w-full border-b bg-white/60 backdrop-blur-md">
       <div className="flex items-center justify-between max-w-6xl px-6 py-4 mx-auto">
         <div className="flex items-center gap-3">
-          <img src="/images/logo.png" alt="Amoke Oge logo" className="object-cover w-10 h-10 border rounded-full shadow-sm border-amokeGreen/20" />
+          <img src="/images/images.jpeg" alt="Amoke Oge logo" className="object-cover w-10 h-10 border rounded-full shadow-sm border-amokeGreen/20" />
           <div>
             <div className="text-lg font-semibold">Amoke Oge</div>
             <div className="text-sm text-gray-600">{selectedBranch ?? 'Select a branch'}</div>
