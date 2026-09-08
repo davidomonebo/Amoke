@@ -34,6 +34,15 @@ Then open:
 http://localhost:3000
 ```
 
+## Deploy to Vercel
+
+This project is ready to deploy on Vercel with the default Next.js settings.
+
+1. Push the repo to GitHub.
+2. Open Vercel and import the repository.
+3. Keep the default Next.js project configuration.
+4. Click Deploy.
+
 ## Notes
 
 This is a frontend-only demo. Payments and ordering are simulated for presentation purposes.
